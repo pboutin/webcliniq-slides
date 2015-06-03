@@ -1,12 +1,5 @@
 @import url(http://fonts.googleapis.com/css?family=Exo+2:200,300,400);
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,400,700);
-/**
- * [Modified] Sky theme for reveal.js.
- *
- * Copyright (C) 2011-2012 Hakim El Hattab, http://hakim.se
- */
-.reveal a {
-    line-height: 1.3em; }
 
 /*********************************************
  * GLOBAL STYLES
@@ -24,6 +17,9 @@ body {
     font-size: 36px;
     font-weight: normal;
     color: #161616; }
+
+.reveal a {
+    line-height: 1.3em; }
 
 ::selection {
     color: #fdfdfd;
@@ -228,6 +224,10 @@ body {
 /*********************************************
  * NAVIGATION CONTROLS
  *********************************************/
+.reveal .controls {
+    background-color: rgba(253, 253, 253, 0.80);
+    border-radius: 50%; }
+
 .reveal .controls div.navigate-left, .reveal .controls div.navigate-left.enabled {
     border-right-color: #2277ff; }
 
